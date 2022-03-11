@@ -5,6 +5,7 @@ module.exports = {
       'principal': '#CC2D4A',
       'secondary': '#8FA206',
       'tertiary': '#61AEC9',
+      'white': '#fff',
     },
     fontFamily: {
       Montserrat: ["Montserrat", "sans-serif"],
@@ -27,12 +28,6 @@ module.exports = {
         'europe': "url('../public/img/europe.jpg')",
         'iceland': "url('../public/img/iceland.jpg')",
       },
-      backgroundColor: theme => ({
-        ...theme('colors'),
-        'principal': '#CC2D4A',
-        'secondary': '#8FA206',
-        'tertiary': '#61AEC9',
-      }),
     },
   },
   plugins: [],

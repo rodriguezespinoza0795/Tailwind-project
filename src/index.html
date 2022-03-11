@@ -9,10 +9,25 @@
   <link href="https://fonts.googleapis.com/css2?family=Montserrat&display=swap" rel="stylesheet">
   <title>Platzi Travel</title>
 </head>
-<body class="font-Montserrat dark:bg-gray-900">
-  <p class="text-3xl font-semibold text-principal  dark:text-white">Recomendados</p>
-  <div class="w-48 h-64">
-    <div id="image-container" class="w-full h-3/5 bg-yosemite bg-cover"></div>
-  </div>
+<body>
+  <nav></nav>
+  <div id=“tab_bar”></div>
+  <section>
+    <div class="w-full h-3/4" id="home">
+      <div class=" w-full h-full flex flex-col items-center py-4 space-y-96 absolute">
+        <input class="p-3 outline-none transition duration-300 rounded-full shadow-lg " type="search" name="Searchbar"
+          placeholder="San Francisco" id="">
+        <button class="bg-white w-48 h-auto p-3 rounded-full shadow-md font-semibold text-principal" id='explore-more'>
+          Explorar
+        </button>
+      </div>
+      <div class="w-full h-full bg-cover">
+        <img class="w-full h-full" src="../public/img/sanFrancisco.jpg" alt="">
+      </div>
+    </div>
+    <div id=“recomendadas”></div>
+    <div id=“rentas_destacadas”></div>
+    </section>
+    <footer></footer>
 </body>
 </html>
