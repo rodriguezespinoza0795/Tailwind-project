@@ -6,6 +6,7 @@ module.exports = {
       'secondary': '#8FA206',
       'tertiary': '#61AEC9',
       'white': '#fff',
+      'black': '#000'
     },
     fontFamily: {
       Montserrat: ["Montserrat", "sans-serif"],
