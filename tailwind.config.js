@@ -1,12 +1,15 @@
 module.exports = {
   content: ["./src/**/*.{html,js}"],
+  darkMode: 'class',
   theme: {
     colors: {
       'principal': '#CC2D4A',
       'secondary': '#8FA206',
       'tertiary': '#61AEC9',
       'white': '#fff',
-      'black': '#000'
+      'black': '#000',
+      'dark': '#111827',
+      'dark2': '#1f2937'
     },
     fontFamily: {
       Montserrat: ["Montserrat", "sans-serif"],
